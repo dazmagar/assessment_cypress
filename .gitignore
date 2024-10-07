@@ -1,0 +1,27 @@
+# dependencies
+/node_modules
+
+# misc
+.DS_Store
+.idea
+
+npm-debug.log*
+.nyc_output
+
+# Yarn
+# See https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+# without zero installs
+.pnp.*
+.yarn/*
+yarn-debug.log*
+yarn-error.log*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# cypress
+cypress/videos
+cypress/downloads
+cypress/screenshots

@@ -1,0 +1,13 @@
+{
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.formatOnType": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "files.autoSave": "onFocusChange",
+    "[javascript]": {
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    }
+}
