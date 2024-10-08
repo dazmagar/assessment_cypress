@@ -2,7 +2,7 @@ import { gaussTimeout } from '../cypress/support/helpers';
 
 class InventoryPage {
     open() {
-        cy.task('clearFile');
+        cy.task('clearTestResDir');
         cy.intercept({ resourceType: /xhr|fetch/ }, { log: false });
         cy.visit('/store/publix/storefront');
         gaussTimeout();

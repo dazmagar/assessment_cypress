@@ -19,6 +19,6 @@
     },
     "scripts": {
         "cypo": "cypress open --browser chrome",
-        "cypr": "cypress run --browser chrome"
+        "cypr": "cypress run --browser electron --headless"
     }
 }
