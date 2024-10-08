@@ -67,7 +67,7 @@ class InventoryPage {
                 });
 
                 if (saveData) {
-                    cy.task('saveToFile', productData);
+                    cy.task('saveCartInfo', productData);
                 }
             });
     }

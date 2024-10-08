@@ -16,7 +16,11 @@ module.exports = (on, config) => {
         getAllData() {
             return globalStore;
         },
-        saveToFile(data) {
+        clearData() {
+            globalStore = {};
+            return null;
+        },
+        saveCartInfo(data) {
             const filePath = path.join(testResDir, 'productInfo.json');
             if (fs.existsSync(filePath)) {
                 const currentData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -25,10 +29,6 @@ module.exports = (on, config) => {
             } else {
                 fs.writeFileSync(filePath, JSON.stringify([data], null, 2));
             }
-            return null;
-        },
-        clearData() {
-            globalStore = {};
             return null;
         },
         clearTestResDir() {
