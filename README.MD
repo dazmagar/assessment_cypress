@@ -31,11 +31,11 @@ It includes `cypress-mochawesome-reporter` for detailed reporting, and integrate
 
 1. Clone the repository:
 
-git clone `https://github.com/dazmagar/inst_cypress.git`
+git clone ...
 
 2. Navigate to the project directory:
 
-`cd inst_cypress`
+cd <test_project>
 
 3. Install the required dependencies using Yarn:
 
